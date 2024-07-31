@@ -1,0 +1,128 @@
+body {
+  margin: 0%;
+  background-image: url('https://wallpapers.com/images/hd/appalachian-blue-range-mountain-landscape-j3icb2edmwl72sjk.jpg');
+  background-size: 100vr;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.root {
+  margin: 0%;
+}
+
+.title {
+  display: block;
+  color: white;
+  margin: 0% 0% 0%;
+  padding: 1%;
+  background-image: url('https://media.istockphoto.com/id/479407870/vector/blue-mountains-in-the-fog.jpg?s=612x612&w=0&k=20&c=hiFbJtAmM8NAqp2icO2BMy-havhidj0e7VNAqs2thMw=');
+  background-position: bottom;
+  background-size: 100% 200%;
+
+}
+
+.nav--container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(0, 83, 83, 0.588);
+  height: 40px;
+  text-decoration: none;
+  border: 2px rgba(0, 0, 0, 0.436) solid;
+}
+
+.navlink {
+  text-decoration: none;
+  color: white;
+}
+
+.auth--form--container {
+  display: flex;
+  justify-content: center;
+  color: white;
+  background-color: rgba(143, 143, 143, 0.541);
+  border: 1px rgba(0, 0, 0, 0.623) solid;
+  padding: 20px;
+  margin-top: 10%;
+  margin-left: auto;
+}
+
+.auth--input {
+  padding: 8px;
+}
+
+.logout--btn {
+  font-weight: bold;
+  font-size: 15px;
+  text-decoration: none;
+  color: white;
+  background-color: rgba(0, 0, 0, 0);
+  border: 0px;
+
+}
+
+.form-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  margin: 0% 20%;
+  justify-content: center;
+  text-align: center;
+
+
+}
+
+.form-container :nth-child(odd) {
+  color: white;
+  background-color: rgba(143, 143, 143, 0.541);
+  border: 1px rgba(0, 0, 0, 0.623) solid;
+  height: 40px;
+  padding: 0;
+  margin: 0%;
+}
+
+.form-container :nth-child(even) {
+  border: 1px rgba(0, 0, 0, 0.623) solid;
+  background-color: rgba(228, 228, 228, 0.829);
+  height: 40px;
+  padding: 0;
+  margin: 0%;
+
+
+}
+
+.form-container>button {
+  grid-column: 1/-1;
+}
+
+.post--container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-auto-rows: 1fr 1fr;
+  grid-auto-columns: 1fr 1fr;
+  grid-gap: 20px;
+  margin: 2% 3%;
+}
+
+.offer--Link {
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.trade--posts {
+  padding: 10px;
+  border: 2px rgb(0, 0, 0) solid;
+  border-radius: 25px;
+  background-color: rgba(90, 90, 90, 0.616);
+  color: white;
+}
+
+.post--page--container {
+  color: white;
+  background-color: rgba(143, 143, 143, 0.541);
+  border: 1px rgba(0, 0, 0, 0.623) solid;
+  padding: 20px;
+  margin: 5%;
+}
